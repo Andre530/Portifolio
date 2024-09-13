@@ -9,7 +9,7 @@ header{
 }
 
 #logo_proficao{
-   width: 30vw;
+   width: 15vw;
    height: 10vh;
    display: flex;
    flex-direction: row;
@@ -36,5 +36,17 @@ h3{
    font-size: xx-large;
 
 }
-   
+  @media (max-width: 480px){
+   .btn h6{
+      display: none ;
+      text-align: center;
+      nav ul li {
+         display: block;
+         margin-bottom: 10px;
+         .content{
+            flex-direction: column;
+         }
+      }
+   }
+  }
 

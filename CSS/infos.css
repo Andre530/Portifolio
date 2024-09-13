@@ -39,14 +39,14 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    color: rgba(152, 226, 41, 0.781);
+    color: rgb(255, 255, 255);
     font-size: xx-large;
 }
 
 #segundo_nome {
     width: 80%;
     margin: 0 auto;
-    color: rgba(45, 155, 45, 0.753);
+    color: rgb(255, 255, 255);
     text-align: center;
     font-size: xx-large;
 }
