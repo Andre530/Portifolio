@@ -39,22 +39,23 @@
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgba(174, 0, 255, 0.856);
     font-size: xx-large;
 }
 
 #segundo_nome {
     width: 80%;
     margin: 0 auto;
-    color: rgb(255, 255, 255);
+    color: rgb(194, 0, 253);
     text-align: center;
     font-size: xx-large;
 }
 
 #paragrafos {
     width: 90vw;
-    height: 90vh;
+    height: 85vh;
     margin: 0 auto;
+    color: rgb(0, 0, 0);
 }
 
 #paragrafos {

@@ -21,11 +21,10 @@ header{
 button{
    padding: 10px 20px;
    font-size: 16px;
-   color: #fff;
-   background-color: #007bff;
+   color: #7835CB;
+   background-color: #7835CB;
    border: none;
    border-radius: 4px;
-   cursor: pointer;
    border-radius: 25px;
    width: 10vw;
    height: 5vh;
@@ -39,12 +38,7 @@ h3{
   @media (max-width: 480px){
    .btn h6{
       display: none ;
-      text-align: center;
-      nav ul li {
-         display: block;
-         margin-bottom: 10px;
-         .content{
-            flex-direction: column;
+      
          }
       }
    }
