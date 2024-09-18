@@ -1,69 +1,44 @@
-#img_principal {
-    width: 40vh;
-    height: 40vh;
-    flex-direction: row;
+.imagem_logo {
+    position: absolute;
+    left: 22%;
+    top: 15%;
+    width: 200vw;
+    height: 200vh;
 
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: 20;
 }
+
 
 #primeiro_nome {
-    width: 80%;
-    margin: 0 auto;
+    
+   font-family: Cormorant Unicase;
+    position: absolute;
     text-align: center;
-    color: rgba(152, 226, 41, 0.781);
-    font-size: xx-large;
-}
-
-#segundo_nome {
-    width: 80%;
-    margin: 0 auto;
-    color: rgba(45, 155, 45, 0.753);
-    text-align: center;
-}
-
-#img_principal {
-    width: 40vh;
-    height: 40vh;
-    flex-direction: row;
-
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    height: 20;
-}
-
-#primeiro_nome {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    color: rgba(174, 0, 255, 0.856);
-    font-size: xx-large;
-}
-
-#segundo_nome {
-    width: 80%;
-    margin: 0 auto;
-    color: rgb(194, 0, 253);
-    text-align: center;
-    font-size: xx-large;
-}
-
-#paragrafos {
-    width: 90vw;
-    height: 85vh;
-    margin: 0 auto;
     color: rgb(0, 0, 0);
+    font-size: 150px;
+    top: 13%;
+    left: 45%;
 }
+
+#segundo_nome {
+  position: absolute;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 150px;
+    top: 26%;
+    left: 44%;
+font-family: Cormorant Unicase;
+}
+
 
 #paragrafos {
     width: 90vw;
     height: 90vh;
     margin: 0 auto;
     position: absolute;
-    top: 65%;
-    left: 33%;
-    font-size: x-large;
+    top: 55%;
+    left: 40%;
+    font-size: 32px;
+    color: rgb(255, 0, 0);
+    font-family: Cormorant Unicase;
+
 }
