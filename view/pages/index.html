@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Andre Faustino</title>
+    <link rel="stylesheet" href="./../css/index/index.css">
+    <script src="./../../controller/index.js" defender></script>
+</head>
+<script>
+    function gerarNumeroAleatorio() {
+        const numeroAleatorio = Math.floor(Math.random() * 20) + 1;
+        document.getElementById("resultado").textContent = "Número aleatório escolhido: " + numeroAleatorio;
+    }
+</script>
+
+<body>
+    <header id="cabeçalho">
+
+        <img src="./../../assets/img/images-removebg-preview.png" width="140">
+
+        </div>
+        <div id="btns">
+            <button class="btn" id="btn_home" onclick="gerarNumeroAleatorio()">roll</button>
+            <p id="resultado"></p>
+
+            <i></i>
+            </button>
+            <button class="btn" id="btn_formacao" onclick="alert('Tenha um bom dia')">
+                Menu
+                <i></i>
+            </button>
+            <button class="btn" id="btn_projetos" onclick="window.location.href ='./projetos.html'">
+                click
+                <i></i>
+            </button>
+        </div>
+    </header>
+    <section>
+        <div class="imagem_logo">
+            <img src="./../../assets/img/image-removebg-preview (1).png">
+        </div>
+        <div>
+            <h1 id="primeiro_nome">Andre</h1>
+        </div>
+        <div>
+            <h2 id="segundo_nome">Faustino</h2>
+        </div>
+        <div>
+            <p id="paragrafos">Estudante do ensino tecnico de ADS e estudante de DEV WEB no SENAC</p>
+        </div>
+        <footer>
+
+
+        </footer>
+
+</body>
+
+</html>
