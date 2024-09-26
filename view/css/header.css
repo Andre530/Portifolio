@@ -17,16 +17,10 @@ header {
    justify-content: space-around;
    margin: 2%;
 }
-#imagem_principal{
-   justify-content: end;
-   width: 11vw;
-   height: 11vh;
-  border-radius: 50px;
-   align-items: center;
-} 
-.btn {
-top: 0%;
 
+.btn {
+   top: 0%;
+   position: sticky;
    background-color: #000000;
    border: none;
    border-radius: 50px;
@@ -35,5 +29,6 @@ top: 0%;
    height: 8vh;
    cursor: auto;
    background-image: linear-gradient(45deg, #089fdb, #16d42f);
+
 
 }

@@ -1,2 +1,32 @@
 @import url(./../header.css);
 @import url(./banners.css);
+
+#logo_proficao {
+    width: 10vw;
+    height: 10vh;
+    display: flex;
+ 
+    align-items: center;
+    justify-content: space-around;
+    margin: 2%;
+ }
+ header {
+    height: 15vh;
+    width: 100%;
+    background-color: rgba(180, 158, 33, 0.349);
+    display: flex;
+ 
+    align-items: center;
+ 
+ }
+ body{
+    width: 100vw;
+    height: 100vh;  
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image:  url("https://img.freepik.com/free-photo/fantasy-endless-hole-landscape_23-2151639676.jpg");
+    background-repeat: no-repeat;
+   background-size: cover;
+    align-items: center;
+    }
