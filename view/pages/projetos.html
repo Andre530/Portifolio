@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="stylesheet" href="./../css/projetos/projetos.css">
+</head>
+<script>
+    function gerarNumeroAleatorio() {
+        const numeroAleatorio = Math.floor(Math.random() * 20) + 1;
+        document.getElementById("resultado").textContent = "Número aleatório escolhido: " + numeroAleatorio;
+    }
+</script>
+
+<body>
+    <header id="cabeçalho">
+
+        <img src="./../../assets/img/images-removebg-preview.png" width="140">
+
+        </div>
+        <div id="btns">
+            <button class="btn" id="btn_home" onclick="gerarNumeroAleatorio()">roll</button>
+            <p id="resultado"></p>
+            <i></i>
+            </button>
+            <button class="btn" id="btn_formacao" onclick="alert('Tenha um bom dia')">
+                Menu
+                <i></i>
+            </button>
+            <button class="btn" id="btn_projetos" onclick="window.location.href ='./projetos.html'">
+                click
+                <i></i>
+            </button>
+        </div>
+    </header>
+
+</body>
+
+</html>
