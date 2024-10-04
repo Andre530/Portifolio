@@ -1,0 +1,26 @@
+@import url(./../header.css);
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+#cartoes {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw;
+}
+
+.cartao {
+    width: 15vw;
+    height: 25vh;
+    margin: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+section {
+    background-color: rgb(rgb(0, 255, 174), rgb(0, 255, 0), rgb(255, 0, 0));
+}

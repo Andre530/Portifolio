@@ -6,7 +6,7 @@
     height: 10vh;
     display: flex;
  
-    align-items: center;
+    
     justify-content: space-around;
     margin: 2%;
  }
@@ -16,7 +16,7 @@
     background-color: rgba(180, 158, 33, 0.349);
     display: flex;
  
-    align-items: center;
+    align-items: self-start;
  
  }
  body{
@@ -28,5 +28,23 @@
     background-image:  url("https://img.freepik.com/free-photo/fantasy-endless-hole-landscape_23-2151639676.jpg");
     background-repeat: no-repeat;
    background-size: cover;
-    align-items: center;
+   
     }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+  }
+  .card {
+   background-color: white;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   margin: 10px;
+   padding: 20px;
+   width: 200px;
+   transition: transform 0.2s;
+}
+.card:hover {
+   transform: scale(1.05);
+}
